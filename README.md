@@ -37,10 +37,10 @@ Map creating window will be like this.
 - You can only add points if it's in the same row or column of previous point.
 - If your point has no connection with path blocks, you can't add it.
 - IT SHOULD BE A PATH ON YOUR MAP!
-- MAKING PATH OVER ANOTHER PATH CAN BREAK APP, IF YOU WANT TO DO THAT, BE READY TO BUGS!
+- IF YOU WANT TO MAKE PATH OVER ANOTHER PATH PREPARE YOURSELF FOR POTENTIAL BUGS!
 
 An example:
 
 <img src="./Screenshots/example.png" width="400" />
 
-When you're done, just click 'Finish'. App will close and you will find a JSON file which is your map.
+When you're done, just click 'Finish'. Mapping screen will close and you will find a JSON file which is your map. You can continue making maps with main screen.
