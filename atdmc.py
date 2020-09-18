@@ -217,7 +217,7 @@ class Path(tk.Toplevel):
         self.destroy()
 
     def gui(self):
-        self.title("Mapping")
+        self.title("Anuto TD Map Creator")
         data = self.maps.get()
         self.sc = 50
         sc = self.sc
