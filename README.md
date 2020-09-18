@@ -1,10 +1,10 @@
 # ATD Map Creator
 
-An ugly app which helps to make maps for [Anuto TD](https://github.com/reloZid/android-anuto)
+An app which helps to make maps for [Anuto TD](https://github.com/reloZid/android-anuto)
 
 ## Attention!
 
-This app isn't ready for full work, it's like mess of codes. It probably has lots of bugs. Just try to follow the instructions for your convenience.
+This app isn't ready for full work. It can have some issues. Just try to follow the instructions for your convenience.
 
 ## Instructions
 
@@ -18,7 +18,7 @@ This app isn't ready for full work, it's like mess of codes. It probably has lot
 
 After you start the app, you will see this screen.
 
-<img src="./Screenshots/1.png" width="400" />
+<img src="./Screenshots/app.png" width="400" />
 
 - You can edit final JSON file name or size of map (recommended size is 10x15). Or you can leave it for default.
 - After you're done, click 'Next' button at the bottom. It will open map creating window.
@@ -27,7 +27,7 @@ After you start the app, you will see this screen.
 
 Map creating window will be like this.
 
-<img src="./Screenshots/2.png" width="400" />
+<img src="./Screenshots/empty.png" width="400" />
 
 - You can start making map now!
 - Each 'left click' will switch block type.
@@ -41,6 +41,6 @@ Map creating window will be like this.
 
 An example:
 
-<img src="./Screenshots/3.png" width="400" />
+<img src="./Screenshots/example.png" width="400" />
 
 When you're done, just click 'Finish'. App will close and you will find a JSON file which is your map.
