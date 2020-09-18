@@ -1,10 +1,10 @@
 # ATD Map Creator
 
-An ugly app which helps to make maps for [Anuto TD](https://github.com/reloZid/android-anuto)
+An app which helps to make maps for [Anuto TD](https://github.com/reloZid/android-anuto)
 
 ## Attention!
 
-This app isn't ready for full work, it's like mess of codes. It probably has lots of bugs. Just try to follow the instructions for your convenience.
+This app isn't ready for full work. It can have some issues. Just try to follow the instructions for your convenience.
 
 ## Instructions
 
@@ -18,7 +18,7 @@ This app isn't ready for full work, it's like mess of codes. It probably has lot
 
 After you start the app, you will see this screen.
 
-<img src="./Screenshots/1.png" width="400" />
+<img src="./Screenshots/app.png" width="400" />
 
 - You can edit final JSON file name or size of map (recommended size is 10x15). Or you can leave it for default.
 - After you're done, click 'Next' button at the bottom. It will open map creating window.
@@ -27,7 +27,7 @@ After you start the app, you will see this screen.
 
 Map creating window will be like this.
 
-<img src="./Screenshots/2.png" width="400" />
+<img src="./Screenshots/empty.png" width="400" />
 
 - You can start making map now!
 - Each 'left click' will switch block type.
@@ -37,10 +37,39 @@ Map creating window will be like this.
 - You can only add points if it's in the same row or column of previous point.
 - If your point has no connection with path blocks, you can't add it.
 - IT SHOULD BE A PATH ON YOUR MAP!
-- MAKING PATH OVER ANOTHER PATH CAN BREAK APP, IF YOU WANT TO DO THAT, BE READY TO BUGS!
+- IF YOU WANT TO MAKE PATH OVER ANOTHER PATH PREPARE YOURSELF FOR POTENTIAL BUGS!
 
 An example:
 
-<img src="./Screenshots/3.png" width="400" />
+<img src="./Screenshots/example.png" width="400" />
 
-When you're done, just click 'Finish'. App will close and you will find a JSON file which is your map.
+When you're done, just click 'Finish'. Mapping screen will close and you will find a JSON file which is your map. You can continue making maps with main screen.
+
+## Issues and Contributing
+
+### Issues
+
+If you have some issues or suggests, you can create issues with that format:
+
+- For app crashes, add `[CRASH]` to your issue title and tell what you do, what happened and what is error message
+- For bugs, add `[BUG]` to your issue title head and tell what you do and what happened
+- For editing app, add `[PERMISSION]` to your issue title and tell what do you want to do
+- For suggest features, add `[FEATURE]` to your issue title and tell what do you suggest
+- For how code works, add `[KNOWLEDGE]` to your issue title and tell what do you want to know
+- For README problems, add `[README]` to your issue title and tell what is problem
+
+### Contributing
+
+If you want to change something you can create pull requests with that format:
+
+- PLEASE APPLY PEP-8 OR IT WON'T BE MERGED
+- PLEASE PULL REQUEST TO BRANCH [`dev`](https://github.com/berkaygunduzz/atdmc/tree/dev)
+- Please follow previous codes and try to not messing codes
+- There is a little probability that your idea won't be merged so please ask permission before for your own good
+- For fixing app crashes, add `[FIX_CRASH]` to your pull request title and tell which crashes did you fixed and how
+- For fixing bugs, add `[FIX_BUG]` to your pull request title head and tell which bugs did you fixed and how
+- For gui changes, add `[CHANGE_GUI]` to your pull request title, tell what did you do and share how  new gui looks like
+- For adding features, add `[ADD_FEATURE]` to your pull request title and tell what did you do
+- For optimizing, add `[OPTIMIZE_CODE]` to your pull request title and tell what did you do and how it effected app with numbers
+- For adding docstrings, add `[ADD_DOCSTRING]` to your pull request title
+- For editing README, add `[EDIT_README]` to your pull request title and tell what did you change and why
