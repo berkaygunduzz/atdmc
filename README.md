@@ -45,6 +45,17 @@ An example:
 
 When you're done, just click 'Finish'. Mapping screen will close and you will find a JSON file which is your map. You can continue making maps with main screen.
 
+## Adding New Maps
+
+You need to follow these steps:
+- Fork from [Anuto TD](https://github.com/reloZid/android-anuto)
+- Create my_map.json (but think a different name) file with [atdmc](https://github.com/berkaygunduzz/atdmc)
+- Add my_map.json to YOU/android-anuto/app/src/main/res/raw folder
+- Add `<string name="my_map_name">My Map<string>` to YOU/android-anuto/app/src/main/res/values/strings.xml, don't forget to add `_name`
+- Add `mMapInfos.add(new MapInfo("my", R.string.my_map_name, R.raw.my_map));` to YOU/android-anuto/app/src/main/java/ch/logixisland/anuto/business/game/MapRepository.java, "my" is map name (without spaces, uppercases and "map"), "my_map_name" is name in XML file, "my_map" is file name in raw (without ".json")
+- Test map if you can
+- After all you can create a merge request to main repository
+
 ## Issues and Contributing
 
 ### Issues
