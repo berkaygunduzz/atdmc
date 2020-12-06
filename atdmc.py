@@ -254,7 +254,7 @@ class Main(tk.Tk):
         maps = Map()
         maps.file(f.get())
         try:
-            maps.size(int(x), int(y))
+            maps.size(int(x.get()), int(y.get()))
         except Exception:
             pass
         self.path = Path(self, maps)
